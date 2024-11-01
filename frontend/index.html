@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Luxo Maravilha</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos CSS internos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('hotel.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .about, .contact {
+            padding: 2rem;
+            text-align: center;
+        }
+        .about h2, .contact h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+        .about p, .contact p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact button {
+            padding: 0.8rem 1.2rem;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .contact button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel Luxo Maravilha</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#rooms">Quartos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="hotel.png" alt="Vista do Hotel Luxo Maravilha ao pôr do sol" width="2000" height="750">
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Localizado em um dos destinos mais procurados do país, o Hotel Luxo Maravilha oferece uma experiência única de hospedagem. Com quartos luxuosos, serviço impecável e vistas deslumbrantes, nossa missão é proporcionar a estadia perfeita para você.</p>
+    </section>
+
+    <section id="rooms" class="about">
+        <h2>Nossos Quartos</h2>
+        <p>Desde suítes clássicas até acomodações modernas, cada detalhe foi pensado para seu conforto e bem-estar. Aproveite nossa área de lazer, spa e restaurante gourmet.</p>
+        <img src="quarto 2.png" alt="Vista do Hotel Luxo Maravilha ao pôr do sol" width="2000" height="750">
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Para reservas e informações adicionais, entre em contato conosco. Estamos ansiosos para atendê-lo!</p>
+        <button>Reservar Agora</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hotel Luxo Maravilha. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
